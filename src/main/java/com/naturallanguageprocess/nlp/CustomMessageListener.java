@@ -19,7 +19,8 @@ public class CustomMessageListener {
 
     @RabbitListener(queues = NaturallanguageprocessApplication.QUEUE_SPECIFIC_NAME)
     public void receiveMessage(final CustomMessage customMessage) {
-        log.info("Received message as specific class: {}", customMessage.toString());
-        log.info("\n"+ customMessage.toString());
+//        log.info("Received message as specific class: {}", customMessage.toString());
+//        log.info("\n"+ customMessage.toString());
+        log.info("\n"+ customMessage);
     }
 }

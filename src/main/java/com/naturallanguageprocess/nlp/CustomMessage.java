@@ -33,7 +33,7 @@ public final class CustomMessage implements Serializable {
 
     @Override
     public String toString() {
-        return "CustomMessage{" +
+        return "{" +
                 "text='" + text + '\'' +
                 ", priority=" + priority +
                 ", secret=" + secret +
